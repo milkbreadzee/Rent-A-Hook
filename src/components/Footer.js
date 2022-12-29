@@ -1,5 +1,12 @@
 import React from 'react'
 import {Link} from "react-router-dom"
+import { AiOutlineInstagram } from 'react-icons/ai';
+
+
+import { AiFillFacebook } from 'react-icons/ai';
+import { AiOutlineTwitter } from 'react-icons/ai';
+import './Footer.css'
+
 
 const Footer = () => {
   return (
@@ -9,14 +16,30 @@ const Footer = () => {
               <h3>
                 Rent-A-Hook
               </h3>
-              <div>
-                <Link to="/">
+              <div className='Links-footer'>
+                <Link to="/" style={{ textDecoration: 'none', }}>
                   Home
+                </Link>  
+                <Link to="/" style={{ textDecoration: 'none', }}>
+                  About
+                </Link>  
+                <Link to="/shop" style={{ textDecoration: 'none', }}>
+                  Shop
+                </Link>  
+                <Link to="/" style={{ textDecoration: 'none', }}>
+                  Blog
                 </Link>  
               </div>
             </div>
             <div className="boo2">
-              
+              <p>
+                Socials
+              </p>
+              <div  className="footer-icons">
+                <AiOutlineInstagram size={30}/>
+                <AiFillFacebook size={30}/>
+                <AiOutlineTwitter size={30}/>
+              </div>
             </div>
         </div>
     </div>
