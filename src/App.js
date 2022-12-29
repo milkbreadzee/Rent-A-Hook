@@ -10,7 +10,7 @@ function App() {
     <Header />
     <Home />
     <NewProduct />
-    
+
    </div>
   );
 }

@@ -3,9 +3,14 @@
 }
 
 .cont{
-    height: 100vh;
+    height: 60vh;
+    /* background-color: antiquewhite; */
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 0 70px 0;
+
 
 }
 
@@ -28,7 +33,7 @@
     font-size: 20px;
     
 }
-.words p
+.words h1
 {
     font-size: 70px;
 }

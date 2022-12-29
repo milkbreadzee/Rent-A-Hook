@@ -6,7 +6,7 @@ const Home = () => {
         <div className="cont">
 
             <div className="words">
-                <p>Tail Fishing Reel</p>
+                <h1>Tail Fishing Reel</h1>
                 <button className='shopbtn'>Shop Now</button>
             </div>
           
