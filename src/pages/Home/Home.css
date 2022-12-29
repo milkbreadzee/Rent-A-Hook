@@ -1,3 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+.cont{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.words{
+    display: flex;
+    flex-direction:column ;
+    /* justify-content: ; */
+}
 .img1
 {
     width:400px;

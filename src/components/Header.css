@@ -30,13 +30,13 @@
 
 
 
-button
+.icons button
 {
     border-radius: 50px;
     padding-top: 0.2rem;
     background-color: white;
 }
-button:hover
+.icons button:hover
 {
     background-color:aqua;
 }
