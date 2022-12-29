@@ -18,8 +18,6 @@ const Header = () => {
            
             <p>home</p>
             <p>shop</p>
-            <p>about</p>
-            <p>Pages</p>
             <p>Blog</p>
             <p>Contact</p>
 

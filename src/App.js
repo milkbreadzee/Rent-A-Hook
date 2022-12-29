@@ -8,7 +8,8 @@ import Shop from './pages/Shop/Shop';
 function App() {
   return (
    <div>
-   <Shop />
+    <Header />
+   <Home/>
    </div>
   );
 }
