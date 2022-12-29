@@ -28,12 +28,15 @@
     
 }
 
-.searchicon{
-    border: 1px solid black;
-    background-color: none;
-    border-radius: 50px;
-}
 
-.searchicon:hover{
-    background-color: blue;
+
+button
+{
+    border-radius: 50px;
+    padding-top: 0.2rem;
+    background-color: white;
+}
+button:hover
+{
+    background-color:aqua;
 }

@@ -1,8 +1,6 @@
 
 import React from 'react'
 import './Header.css'
-import { IconButton } from "rsuite";
-import SearchIcon from '@rsuite/icons/Search';
 import { AiOutlineSearch } from 'react-icons/ai';
 import { BiUser } from 'react-icons/bi';
 import { AiOutlineHeart } from 'react-icons/ai';
@@ -27,11 +25,10 @@ const Header = () => {
 
         
         <div class="icons">
-        {/* <IconButton className='searchicon' icon={<SearchIcon size={32} />}> </IconButton> */}
-        <AiOutlineSearch size={24}/>
-        <BiUser size={24}/>
-        <AiOutlineHeart size={24}/>
-        <AiOutlineShoppingCart size={24}/>
+        <button><AiOutlineSearch size={24}/></button>
+        <button><BiUser size={24}/></button>
+        <button><AiOutlineHeart size={24}/></button>
+        <button><AiOutlineShoppingCart size={24}/></button>
         </div>
         </nav>
     </div>
