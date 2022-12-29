@@ -1,5 +1,5 @@
 import React from 'react'
-import MostPopCard from './MostPopCard/mostpopcard'
+
 import "./MostPopCardNet.css"
 const MostPopCardNet = () => {
   return (
