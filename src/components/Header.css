@@ -22,8 +22,18 @@
 {
     display: flex;
     flex-direction: row;
-    gap:1rem;
+    gap:2rem;
     padding: 1rem;
     
     
+}
+
+.searchicon{
+    border: 1px solid black;
+    background-color: none;
+    border-radius: 50px;
+}
+
+.searchicon:hover{
+    background-color: blue;
 }
