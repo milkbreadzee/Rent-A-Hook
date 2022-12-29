@@ -31,6 +31,9 @@ const Footer = () => {
                 </Link>  
               </div>
             </div>
+            <div className="logo-footer">
+
+            </div>
             <div className="boo2">
               <p>
                 Socials
