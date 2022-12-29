@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../../components/Header';
 import './Shop.css'
+import {TfiLayoutGrid2Alt} from "react-icons/tfi"
 const Shop = () => {
     const [value, setValue] = React.useState('Default Sorting');
 
@@ -14,10 +15,12 @@ const Shop = () => {
     <div>
         
         <div className="products">
+           
             <h3 className='pro'>Product</h3>
             {/* <p className='texthome'>Home</p> */}
         </div>
-        <div className='gawkhead'> <p> Showing all 12 results</p>
+        <div className='gawkhead'> 
+        <p> <TfiLayoutGrid2Alt /> Showing all 12 results</p>
         <div className="sorting">
             <select className='dropdownboo' value={value} onChange={handleChange}>
                 <option value="Default Sorting">Default Sorting</option>
