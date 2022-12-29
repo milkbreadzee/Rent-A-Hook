@@ -10,11 +10,11 @@ const Home = () => {
                 <button className='shopbtn'>Shop Now</button>
             </div>
           
-        <div className="cont2">
-            <div className="img1">
+            <div className="cont2">
+                <div className="img1">
                 
-            </div>
-          </div>  
+                </div>
+            </div>  
         </div>
     </div>
   )
