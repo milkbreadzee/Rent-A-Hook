@@ -8,17 +8,34 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
+    /* background-image: url("https://acegif.com/wp-content/uploads/gifs/water-43.gif");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
 }
 
+.loginbigbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 90vh;
+    
+    
+}
 .logincont{
     
+    display: flex;
+    flex-direction: column;
     padding: 2rem 2rem 2rem 2rem;
     align-items: center;
     justify-content: center;
-    margin: auto;
+    /* margin: auto; */
     border-radius: 43px;
-    border-color: black;
-    border: 2px solid;
+    /* border-color: black; */
+    /* border: 2px solid; */
+    margin: 0;
 }
 
 .logininputs input{
@@ -29,6 +46,13 @@
     border: 1px solid black;
     border-radius: 20px;
     
+}
+
+.loginbox{
+    border: 1px solid black;
+    padding: 5rem ;
+    border-radius: 40px;
+    margin: auto;
 }
 
 input:focus{
@@ -52,7 +76,38 @@ input:-webkit-autofill {
 }
 
 .logintitle{
-    font-size: 22px;
+    font-size: 28px;
     text-align: center;
 }
 
+.loginimg{
+    background-image: url("https://i.pinimg.com/originals/a4/2c/d9/a42cd915110ffb8cd7cf97af2a8c1139.gif");
+    width: 40vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin: 0;
+    /* border: 2px solid black; */
+    
+    
+
+
+} 
+
+.logoimglogin
+{
+    background-image: url("../../assets/images-removebg-preview.png");
+    width: 100px;
+    height: 100px;
+    background-size:contain;
+    
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+
+}

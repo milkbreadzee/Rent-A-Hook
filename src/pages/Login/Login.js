@@ -31,10 +31,21 @@ const Login = () => {
     
   return (
     <div className='divcont'>
-        
+
+      <div className='loginbigbox'>
+
+      <div className="loginimg">
+        {/* imgdiv */}
+        </div>
+
+        <div className="loginbox">
         <section className="logincont">
+        <div className="logoimglogin">
+                
+                </div>
             <form onSubmit={Auth}>
             {isError && <p>{message}</p>} 
+              
             <h3 className="logintitle">Login</h3>
             <div className="logininputs">
                <input type="text" className="email" value ={email} onChange={(e)=>{setEmail(e.target.value)}} placeholder='abc@gmail.com' />
@@ -47,6 +58,10 @@ const Login = () => {
             
             </form>
         </section>
+        </div>
+
+        </div>
+
     </div>
   )
 }

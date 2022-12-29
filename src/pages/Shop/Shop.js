@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 import Header from '../../components/Header';
 import './Shop.css'
 import {TfiLayoutGrid2Alt} from "react-icons/tfi"
@@ -32,6 +34,7 @@ const Shop = () => {
         </div>
         <div className="items">
 
+            <Link to="/productview "style={{ textDecoration: 'none', color: 'black' }}>
             <div className="item1">
                 <div className='imgdiv'>
                 <img src="https://m.media-amazon.com/images/I/71aEvZbodJL._SX425_.jpg" alt="" />
@@ -40,6 +43,8 @@ const Shop = () => {
                     Tail fishing Reel<br />₹35/day
                 </div>
             </div>
+            </Link>
+            
             <div className="item1">
                 <div className="imgdiv">
                 <img src="https://contents.mediadecathlon.com/p51462/0d68afc1dbbf70f6199c170956cef133/p51462.jpg" alt="" />
