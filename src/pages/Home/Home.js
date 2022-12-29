@@ -5,9 +5,12 @@ const Home = () => {
     <div>
         <div className="cont">
             <div className="words">
-                <p>hihihi</p>
+                <p>Tail Fishing Reel</p>
             </div>
-            <div className="item1img">
+            <div>
+              <button>Shop Now</button>
+            </div>
+            <div className="img1">
                 <img src="./item1.png"  alt="" />
             </div>
         </div>
