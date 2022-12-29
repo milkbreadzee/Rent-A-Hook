@@ -6,6 +6,7 @@ import Shop from './pages/Shop/Shop';
 
 import RoutesURL from './RoutesURL';
 import {Routes, Route } from "react-router-dom";
+import Footer from './components/Footer';
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <Route path="/" element={<Home />} />
     <Route path="/shop" element={<Shop />} />
     </Routes>
+    <Footer />
     
     
     
