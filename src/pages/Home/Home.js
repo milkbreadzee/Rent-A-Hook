@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from "react-router-dom"
+import LatestPosts from '../LastestPosts/LatestPosts'
 import MostPopular from '../MostPopular/MostPopular'
 import './Home.css'
 const Home = () => {
@@ -8,7 +10,10 @@ const Home = () => {
 
             <div className="words">
                 <h1>Tail Fishing Reel</h1>
+                <Link to="/shop">
                 <button className='shopbtn'>Shop Now 🡢</button>
+                </Link>
+                
             </div>
           
             <div className="cont2">
@@ -18,6 +23,7 @@ const Home = () => {
             </div>  
         </div>
         <MostPopular />
+        <LatestPosts />
     </div>
   )
 }
