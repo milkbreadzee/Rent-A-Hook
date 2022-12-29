@@ -12,7 +12,7 @@
 .words{
     display: flex;
     flex-direction:column ;
-    /* justify-content: ; */
+    align-items: center;
 }
 .img1
 {
