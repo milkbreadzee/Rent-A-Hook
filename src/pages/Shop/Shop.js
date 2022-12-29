@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../../components/Header';
 import './Shop.css'
 import {TfiLayoutGrid2Alt} from "react-icons/tfi"
+import Footer from '../../components/Footer';
 const Shop = () => {
     const [value, setValue] = React.useState('Default Sorting');
 
@@ -13,7 +14,7 @@ const Shop = () => {
   return (
     
     <div>
-        
+        <Header />
         <div className="products">
            
             <h3 className='pro'>Product</h3>
@@ -129,7 +130,7 @@ const Shop = () => {
                 </div>
             </div>
             </div>
-            
+            <Footer />
     </div>
   )
 }
