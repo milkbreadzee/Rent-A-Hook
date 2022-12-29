@@ -13,7 +13,7 @@ const Header = () => {
         <nav class="navbar">
 
             <div className="logo">
-            <h1>Rent-a-hook </h1>
+            <h1 className='name'>Rent-a-hook </h1>
             </div>
            
             <p>home</p>
@@ -25,10 +25,10 @@ const Header = () => {
 
         
         <div class="icons">
-        <AiOutlineSearch />
-        <BiUser />
-        <AiOutlineHeart />
-        <AiOutlineShoppingCart />
+        <AiOutlineSearch size={24}/>
+        <BiUser size={24}/>
+        <AiOutlineHeart size={24}/>
+        <AiOutlineShoppingCart size={24}/>
         </div>
         </nav>
     </div>

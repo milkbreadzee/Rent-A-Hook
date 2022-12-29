@@ -14,11 +14,16 @@
     align-items: center;
 }
 
+.name{
+    margin-right: 20rem;
+}
+
 .icons
 {
     display: flex;
     flex-direction: row;
     gap:1rem;
     padding: 1rem;
+    
     
 }
