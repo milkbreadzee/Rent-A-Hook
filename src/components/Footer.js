@@ -17,16 +17,16 @@ const Footer = () => {
                 Rent-A-Hook
               </h3>
               <div className='Links-footer'>
-                <Link to="/" style={{ textDecoration: 'none', }}>
+                <Link to="/" style={{ textDecoration: 'none',  color: 'black'}}>
                   Home
                 </Link>  
-                <Link to="/" style={{ textDecoration: 'none', }}>
+                <Link to="/" style={{ textDecoration: 'none', color: 'black' }}>
                   About
                 </Link>  
-                <Link to="/shop" style={{ textDecoration: 'none', }}>
+                <Link to="/shop" style={{ textDecoration: 'none',  color: 'black'}}>
                   Shop
                 </Link>  
-                <Link to="/" style={{ textDecoration: 'none', }}>
+                <Link to="/" style={{ textDecoration: 'none',  color: 'black'}}>
                   Blog
                 </Link>  
               </div>

@@ -40,6 +40,8 @@
      flex-direction: column;
      justify-content: center;
      align-items: center;
+     border-radius: 10px;
+     box-shadow: 2px 2 px 2px black;
      
 }
 
