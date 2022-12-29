@@ -1,3 +1,4 @@
+
 import React from 'react'
 import './Header.css'
 import { AiOutlineSearch } from 'react-icons/ai';
@@ -22,13 +23,14 @@ const Header = () => {
             <p>Blog</p>
             <p>Contact</p>
 
-        </nav>
+        
         <div class="icons">
         <AiOutlineSearch />
         <BiUser />
         <AiOutlineHeart />
         <AiOutlineShoppingCart />
         </div>
+        </nav>
     </div>
   )
 }
