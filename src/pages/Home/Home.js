@@ -9,9 +9,7 @@ const Home = () => {
                 <p>Tail Fishing Reel</p>
                 <button className='shopbtn'>Shop Now</button>
             </div>
-            <div>
-              <button>Shop Now</button>
-            </div>
+          
         <div className="cont2">
             <div className="img1">
                 
