@@ -1,26 +1,38 @@
 import React, {useState} from 'react'
 import './MostPopular.css'
-import MostPopCard  from '../../components/MostPopCard/mostpopcard'
+
 import MostPopCardNet from '../../components/MostPopCardNet'
 import MostPopCardReels from '../../components/MostPopCardReels'
 import MostPopCardPli from '../../components/MostPopCardPli'
 import MostPopCardBait from '../../components/MostPopCardBait'
 const MostPopular = () => {
-    const [isShownNet, setIsShownNet] = useState(false);
+    const [isShownNet, setIsShownNet] = useState(true);
     const [isShownReels, setIsShownReels] = useState(false);
     const [isShownBait, setIsShownBait] = useState(false);
     const [isShownPli, setIsShownPli] = useState(false);
     const handleClickNet = event => {
-        setIsShownNet(current => !current);
+        setIsShownNet(true);
+        setIsShownReels(false);
+        setIsShownBait(false);
+        setIsShownPli(false);
       };
       const handleClickReels = event => {
-        setIsShownReels(current => !current);
+        setIsShownNet(false);
+        setIsShownReels(true);
+        setIsShownBait(false);
+        setIsShownPli(false);
       };
       const handleClickBait = event => {
-        setIsShownBait(current => !current);
+        setIsShownNet(false);
+        setIsShownReels(false);
+        setIsShownBait(true);
+        setIsShownPli(false);
       };
       const handleClickPli = event => {
-        setIsShownPli(current => !current);
+        setIsShownNet(false);
+        setIsShownReels(false);
+        setIsShownBait(false);
+        setIsShownPli(true);
       };
   return (
     <div>
