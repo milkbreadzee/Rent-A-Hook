@@ -4,7 +4,7 @@ import './Shop.css'
 const Shop = () => {
   return (
     <div>
-        <Header />
+        
         <div className="products">
             <h3 className='pro'>Product</h3>
             {/* <p className='texthome'>Home</p> */}

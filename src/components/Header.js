@@ -5,6 +5,8 @@ import { AiOutlineSearch } from 'react-icons/ai';
 import { BiUser } from 'react-icons/bi';
 import { AiOutlineHeart } from 'react-icons/ai';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
+import RoutesURL from '../RoutesURL';
 
 
 const Header = () => {
@@ -15,9 +17,10 @@ const Header = () => {
             <div className="logo">
             <h1 className='name'>Rent-a-hook </h1>
             </div>
-           
-            <p>home</p>
-            <p>shop</p>
+
+            
+            <Link to="/" style={{ textDecoration: 'none' }}>Home</Link>
+            <Link to="/shop" style={{ textDecoration: 'none' }}>Shop</Link>
             <p>Blog</p>
             <p>Contact</p>
 

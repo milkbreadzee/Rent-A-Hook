@@ -1,4 +1,5 @@
 import React from 'react'
+import MostPopular from '../MostPopular/MostPopular'
 import './Home.css'
 const Home = () => {
   return (
@@ -7,7 +8,7 @@ const Home = () => {
 
             <div className="words">
                 <h1>Tail Fishing Reel</h1>
-                <button className='shopbtn'>Shop Now</button>
+                <button className='shopbtn'>Shop Now 🡢</button>
             </div>
           
             <div className="cont2">
@@ -16,6 +17,7 @@ const Home = () => {
                 </div>
             </div>  
         </div>
+        <MostPopular />
     </div>
   )
 }

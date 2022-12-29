@@ -1,3 +1,56 @@
 *{
+    box-sizing: border-box;
+}
+
+.mostpop{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 8rem;
+}
+.popfilter{
+    display: flex;
+    flex-direction: rwo;
+    justify-content: flex-start;
+    gap: 2rem;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-left: 8rem;
     
 }
+
+.popfilter p{
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.popfilter p:hover{
+
+    border: 1px solid #48CAE4;
+    border-radius: 20px;
+}
+
+.popcont{
+    display: flex;
+    flex-direction: rwo;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    padding: 0 8rem 5rem;
+
+}
+.pop1{
+    border: 0.5px solid #CAF0F8;
+    
+}
+
+.pop1 img{
+    padding: 1rem;
+}
+
+.poptexts{
+    text-align: center;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+
