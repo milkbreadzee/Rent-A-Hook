@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Home.css'
 const Home = () => {
   return (
     <div>
@@ -10,9 +10,11 @@ const Home = () => {
             <div>
               <button>Shop Now</button>
             </div>
+        <div className="cont2">
             <div className="img1">
-                <img src="./item1.png"  alt="" />
+                
             </div>
+          </div>  
         </div>
     </div>
   )
