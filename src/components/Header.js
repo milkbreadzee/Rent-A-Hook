@@ -15,6 +15,9 @@ const Header = () => {
         <nav class="navbar">
 
             <div className="logo">
+              <div className="logo1">
+                
+              </div>
             <h1 className='name'>Rent-a-hook </h1>
             </div>
 

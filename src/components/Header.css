@@ -40,4 +40,19 @@
 {
     background-color:#ADE8F4;
 }
+ 
+ .logo
+{
+    display: flex;
+    align-items: center;
+}
+.logo1
+{
+    background-image: url("../assets/images-removebg-preview.png ");
+    width:75px;
+    height:75px;
+    
+    background-size:contain;
 
+    
+} 
