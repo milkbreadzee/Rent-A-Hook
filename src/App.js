@@ -13,6 +13,8 @@ import ProductView from './pages/ProductView/ProductView';
 import ProductView2 from './pages/ProductView/ProductView2';
 import ProductView3 from './pages/ProductView/ProductView3';
 import ProductView4 from './pages/ProductView/ProductView4';
+import Buynow3 from './pages/Buynow/Buynow3';
+import Buynow1 from './pages/Buynow/Buynow1';
 
 function App() {
   return (
@@ -29,7 +31,8 @@ function App() {
     <Route  path="/productview2" element={<ProductView2 />}/>
     <Route  path="/productview3" element={<ProductView3 />}/>
     <Route  path="/productview4" element={<ProductView4 />}/>
-
+    <Route  path="/buy3" element={<Buynow3 />}/>
+    <Route  path="/buy1" element={<Buynow1 />}/>
     </Routes>
    
     
