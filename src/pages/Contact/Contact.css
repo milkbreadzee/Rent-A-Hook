@@ -1,0 +1,38 @@
+
+
+.subs{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.subs h3,h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formborder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #03045E;
+    border-radius: 12px;
+    padding: 1rem 2rem 4rem 2rem;
+}
+
+
+.feedbackform{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+.subs input{
+    padding: 0.3rem;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 20vw;
+}
