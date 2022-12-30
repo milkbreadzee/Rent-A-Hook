@@ -1,0 +1,45 @@
+.product-box
+{
+    display:flex;
+    flex-direction: row; 
+    align-items:flex-start;
+    justify-content:center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+
+}
+.imgcar2
+{
+    background-image:url("https://contents.mediadecathlon.com/p51462/0d68afc1dbbf70f6199c170956cef133/p51462.jpg") ;
+    width:400px;
+    height:400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.info
+{
+    margin-left: 100px;
+    width:400px;
+    
+}
+.info h2
+{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.info h3
+{
+    color: #412cc5;
+    font-size: 30px;
+}
+.info button
+{
+    
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: white;
+    border:1px solid #412cc5;
+
+}
+
