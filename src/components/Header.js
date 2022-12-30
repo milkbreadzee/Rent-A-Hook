@@ -7,6 +7,7 @@ import { AiOutlineHeart } from 'react-icons/ai';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import RoutesURL from '../RoutesURL';
+import {FiLogOut} from "react-icons/fi"
 
 
 const Header = () => {
@@ -33,6 +34,7 @@ const Header = () => {
         <button><BiUser size={24}/></button>
         <button><AiOutlineHeart size={24}/></button>
         <Link to="/cart"><button><AiOutlineShoppingCart size={24}/></button></Link>
+        <Link to="/login"><button><FiLogOut size={24}/></button></Link>
         </div>
         </nav>
     </div>

@@ -1,6 +1,7 @@
 import React, {useState,useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import axios from "axios"
+import './ProductList.css'
 
 const ProductList = () => {
     const [products, setProducts]  = useState([])
@@ -25,7 +26,7 @@ const ProductList = () => {
     <div>
         <h1>PRODUCT LIST</h1>
         <table className="protable">
-            <thread>
+            <thread class="threadpro">
                 <tr>
                 <th>No</th>
                 <th>NAME</th>
