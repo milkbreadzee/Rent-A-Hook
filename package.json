@@ -17,6 +17,7 @@
     "react-scripts": "5.0.1",
     "react-simple-star-rating": "^5.1.7",
     "redux-mock-store": "^1.5.4",
+    "redux-thunk": "^2.4.2",
     "rsuite": "^5.23.3",
     "web-vitals": "^2.1.4"
   },

@@ -1,24 +1,24 @@
 import React from 'react'
 import Header from '../../components/Header'
-import './ProductView.css'
+import './ProductView3.css'
 import Footer from '../../components/Footer'
 
 
-const ProductView = () => {
+const ProductView3 = () => {
    
   return (
     <div>
         <Header />
         <div className = "product-box">
-            <div className="imgcar">
+            <div className="imgcar3">
             
             </div>
             <div className="info">
                 <h2>
-                Tail fishing Reel
+                Fishing Rod
                 </h2>
                 <h3>
-                  ₹20/day
+                ₹20/day
                 </h3>
             
                 <p> 
@@ -32,4 +32,4 @@ const ProductView = () => {
   )
 }
 
-export default ProductView
+export default ProductView3

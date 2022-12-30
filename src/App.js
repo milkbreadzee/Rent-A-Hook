@@ -10,9 +10,9 @@ import {Routes, Route } from "react-router-dom";
 import Footer from './components/Footer';
 import AdminDash from './pages/AdminDash/AdminDash';
 import ProductView from './pages/ProductView/ProductView';
-import Cart from './pages/Cart/Cart';
-
-
+import ProductView2 from './pages/ProductView/ProductView2';
+import ProductView3 from './pages/ProductView/ProductView3';
+import ProductView4 from './pages/ProductView/ProductView4';
 
 function App() {
   return (
@@ -26,7 +26,10 @@ function App() {
     <Route path="/login" element={<Login />} />
     <Route  path="/admindash" element={<AdminDash />}/>
     <Route  path="/productview" element={<ProductView />}/>
-    <Route  path="/cart" element={<Cart />}/>
+    <Route  path="/productview2" element={<ProductView2 />}/>
+    <Route  path="/productview3" element={<ProductView3 />}/>
+    <Route  path="/productview4" element={<ProductView4 />}/>
+
     </Routes>
    
     

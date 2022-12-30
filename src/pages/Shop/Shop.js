@@ -40,42 +40,47 @@ const Shop = () => {
                 <img src="https://m.media-amazon.com/images/I/71aEvZbodJL._SX425_.jpg" alt="" />
                 </div>
                 <div className="smalltext">
-                    Tail fishing Reel<br />₹35/day
+                    Tail fishing Reel<br />₹20/day
                 </div>
             </div>
             </Link>
-            
+            <Link to="/productview2 "style={{ textDecoration: 'none', color: 'black' }}>
             <div className="item1">
                 <div className="imgdiv">
                 <img src="https://contents.mediadecathlon.com/p51462/0d68afc1dbbf70f6199c170956cef133/p51462.jpg" alt="" />
                 </div>
                 <div className="smalltext">
-                    Fishing Reel<br />₹30/day
+                    Fishing Reel<br />₹20/day
                 </div>
             </div>
+            </Link>
+            <Link to="/productview3 "style={{ textDecoration: 'none', color: 'black' }}>
             <div className="item1">
             <div className="imgdiv">
                 <img src="https://rukminim1.flixcart.com/image/416/416/juk4gi80/fishing-rod/k/2/v/180cm-6-feet-auf-original-imaffmp9m5yfswce.jpeg?q=70" alt="" />
                 </div>
                 <div className="smalltext">
 
-                    Fishing Rod<br />₹30/day
+                    Fishing Rod<br />₹20/day
                 </div>
             </div>
+            </Link>
+            <Link to="/productview4 "style={{ textDecoration: 'none', color: 'black' }}>
             <div className="item1">
             <div className="imgdiv">
                 <img src="https://5.imimg.com/data5/YI/VO/IG/SELLER-34214754/fishing-nets-500x500.jpg" alt="" />
                 </div>
                 <div className="smalltext">
-                    Fishing Net<br />₹15/day
+                    Fishing Net<br />₹5/day
                 </div>
             </div>
+            </Link>
             <div className="item1">
             <div className="imgdiv">
                 <img src="https://m.media-amazon.com/images/I/81uvvBNFy-L._SY550_.jpg" alt="" />
                 </div>
                 <div className="smalltext">
-                    Fishing Bait<br />₹20/day
+                    Fishing Bait<br />₹10/day
                 </div>
             </div>
             <div className="item1">
@@ -83,7 +88,7 @@ const Shop = () => {
                 <img src="https://m.media-amazon.com/images/I/418lYD-RoqL._SX425_.jpg" alt="" />
                 </div>
                 <div className="smalltext">
-                    Fishing Hook<br />₹20/day
+                    Fishing Hook<br />₹5/day
                 </div>
             </div>
             <div className="item1">
