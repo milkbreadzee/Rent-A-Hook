@@ -43,7 +43,7 @@ const MostPopular = () => {
             <button onClick={handleClickNet}>Landing Net</button>
             <button onClick={handleClickReels}>Fishing Reels</button>
             <button onClick={handleClickBait}>Baitcasing</button>
-            <button onClick={handleClickPli}>Pliers</button>
+            <button onClick={handleClickPli}>Motors</button>
         </div>
         <div className="popcont">
         {isShownNet &&  <MostPopCardNet />}

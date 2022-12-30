@@ -32,7 +32,7 @@ const Header = () => {
         <button><AiOutlineSearch size={24}/></button>
         <button><BiUser size={24}/></button>
         <button><AiOutlineHeart size={24}/></button>
-        <button><AiOutlineShoppingCart size={24}/></button>
+        <Link to="/cart"><button><AiOutlineShoppingCart size={24}/></button></Link>
         </div>
         </nav>
     </div>

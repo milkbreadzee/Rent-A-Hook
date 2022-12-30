@@ -10,6 +10,7 @@ import {Routes, Route } from "react-router-dom";
 import Footer from './components/Footer';
 import AdminDash from './pages/AdminDash/AdminDash';
 import ProductView from './pages/ProductView/ProductView';
+import Cart from './pages/Cart/Cart';
 
 
 
@@ -25,6 +26,7 @@ function App() {
     <Route path="/login" element={<Login />} />
     <Route  path="/admindash" element={<AdminDash />}/>
     <Route  path="/productview" element={<ProductView />}/>
+    <Route  path="/cart" element={<Cart />}/>
     </Routes>
    
     

@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+.cartul{
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    font-weight: 600;
+}
+
+.cartitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 3px solid #03045E;
+    height: 20vh;
+    width: 40vw;
+    
+}
