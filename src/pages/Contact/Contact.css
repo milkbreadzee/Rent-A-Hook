@@ -36,3 +36,16 @@
     border-bottom: 1px solid grey;
     width: 20vw;
 }
+
+.subs button {
+    background-color: white;
+    padding: 0.3rem 0.5rem;
+    border-radius: 8px;
+    border: 1.2px solid #0077B6;
+    margin-top: 2rem;
+}
+
+.subs button:hover{
+    background-color: #03045E;
+    color: white;
+}

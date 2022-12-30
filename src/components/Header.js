@@ -11,8 +11,8 @@ import RoutesURL from '../RoutesURL';
 
 const Header = () => {
   return (
-    <div class="main">
-        <nav class="navbar">
+    <div className="main">
+        <nav className="navbar">
 
             <div className="logo">
               <div className="logo1">
@@ -28,7 +28,7 @@ const Header = () => {
             <Link to="/contact" style={{ textDecoration: 'none' }}>Contact</Link>
 
         
-        <div class="icons">
+        <div className="icons">
         <button><AiOutlineSearch size={24}/></button>
         <button><BiUser size={24}/></button>
         <button><AiOutlineHeart size={24}/></button>
